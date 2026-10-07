@@ -12,7 +12,7 @@ pub struct LogEntry{
 }
 
 impl LogEntry{
-    pub fn new(raw_string:&String)->Self{
+    pub fn new(raw_string:&str)->Self{
         let  bytes = raw_string.as_bytes();
         let mut words = Vec::new();
 
